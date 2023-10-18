@@ -7,7 +7,7 @@ def request(url):
              pass
 
 
-url = input("enter  :- ")
+url = input("Enter the target domain  :- ")
 
 subdomain = requests.get("https://" + url)
 
